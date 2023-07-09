@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Password Generator</title>
+    <link rel="icon" href="./img/favicon.png" size="16x16" type="image/png" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Marcellus&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <header>
+    <h1><span>P</span>assword <span>G</span>enerator</h1>
+    <img src="./img/key.png" alt="Key for password" />
+    <h2>Try our Password Generator</h2>
+    <h3>Protect Yourself with Strong and Unique Passwords!</h3>
+  </header>
+
+  <body>
+    <main>
+      <p id="result"></p>
+
+      <button id="btn">Create Password</button>
+
+      <fieldset>
+        <legend>Customize Password</legend>
+        <label>
+          Password Length (<span id="passwordLength">8</span>)
+          <input
+            class="range"
+            type="range"
+            id="slider"
+            min="8"
+            max="24"
+            value="8"
+          />
+        </label>
+        <label>
+          Numbers
+          <input type="checkbox" class="checkbox" id="checkboxNumbers" />
+        </label>
+        <label>
+          Symbols
+          <input type="checkbox" class="checkbox" id="checkboxSymbols" />
+        </label>
+      </fieldset>
+    </main>
+
+    <script src="main.js"></script>
+  </body>
+</html>

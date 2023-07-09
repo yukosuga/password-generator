@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  color: #404040;
+  font-family: "Marcellus", serif;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+span {
+  color: #6758cf;
+}
+
+img {
+  width: 200px;
+  display: block;
+  margin: 2rem auto 0;
+}
+
+h2 {
+  color: #e3613d;
+  text-align: center;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  margin-top: 1rem;
+}
+
+h3 {
+  color: #404040;
+  text-align: center;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  margin-top: 1rem;
+}
+
+body {
+  background-color: #fcf1da;
+}
+
+main {
+  width: 450px;
+  margin: 2rem auto 0;
+  padding: 1rem;
+  box-shadow: 0 0 0.5rem #999;
+  border-radius: 0.5rem;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  background-color: #fff;
+}
+
+p {
+  padding: 0.5rem 0;
+  border: 0.1rem solid #aaa;
+  border-radius: 0.25rem;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+button {
+  all: unset;
+  width: 100%;
+  background-color: #e3613d;
+  border-radius: 0.5rem;
+  color: #fff;
+  text-align: center;
+  margin-top: 1rem;
+  padding: 0.5rem 0;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.6;
+}
+
+button:active {
+  opacity: 0.4;
+}
+
+fieldset {
+  border: 0.1rem dashed #aaa;
+  border-radius: 0.5rem;
+  margin-top: 1rem;
+  padding: 1rem;
+}
+
+legend {
+  padding: 0 0.5rem;
+}
+
+label {
+  display: flex;
+  margin: 0.2rem 0 0.2rem;
+}
+
+.range {
+  margin-left: 0.5rem;
+}
+
+.checkbox {
+  margin-left: 0.3rem;
+}
+
+#passwordLength {
+  width: 1.2rem;
+  display: inline-block;
+  text-align: center;
+}
